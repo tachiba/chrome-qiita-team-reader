@@ -1,1 +1,0 @@
-# chrome-qiita-team-reader
