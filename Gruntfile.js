@@ -255,7 +255,7 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
-            'images/{,*/}*.{webp,gif}',
+            'images/{,*/}*.{webp,gif,png}',
             '{,*/}*.html',
             'styles/{,*/}*.css',
             'styles/fonts/{,*/}*.*',
@@ -270,7 +270,7 @@ module.exports = function (grunt) {
       chrome: [
       ],
       dist: [
-        'imagemin',
+        // 'imagemin',
         'svgmin'
       ],
       test: [
